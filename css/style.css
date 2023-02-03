@@ -1,0 +1,303 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav
+{
+    background-color: whitesmoke;
+    height: 4rem;
+    
+}
+nav h3
+{
+    width: fit-content;
+    position: relative;
+    left: 10%;
+    top: 30%;
+}
+.links
+{
+    margin-right: 5em;
+    margin-bottom: 10px;
+}
+.links ul
+{
+    width: 31rem;
+    display: flex;
+    flex-direction: row;
+    float: right;
+    justify-content: space-between;
+    
+}
+.links ul li
+{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+nav a 
+{
+    text-decoration: none;
+    color: rgb(86, 208, 167);
+    
+}
+
+/* end for navigation */
+
+.section_two
+{
+    background-image: url(../section_two_bg/bg.jpg);
+    overflow: hidden;
+    height: 16rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.section_two h2 
+{
+    margin-top: 2em;
+    color: rgb(23, 99, 74);  
+
+}
+.section_two p
+{
+    color: white;
+}
+.section_two button
+{
+    padding: 6px;
+    border-radius: 12px;
+    background-color:green ;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* end of section_two */
+
+.section_three .container
+{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    justify-content: space-around;
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+.section_three .container img
+{
+    border-radius: 10px;
+    margin-left: -20em;
+}
+.section_three .container h2
+{
+    color: rgb(86, 208, 167);
+}
+.section_three .container button
+{
+    padding: 8px;
+    border-radius:4px;
+    background-color:green ;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* end of section_three */
+
+.section_four .container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2em;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.section_four .container img
+{
+    border-radius: 10px;
+    margin-left: -20em;
+}
+.section_four .container h2
+{
+    color: rgb(86, 208, 167);
+}
+.section_four .container button
+{
+    padding: 8px;
+    border-radius:4px;
+    background-color:green ;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.section_four ul li
+{
+    list-style-type: none;
+    line-height: 2;
+}
+
+/* end of section_four */
+.section_five .container
+{
+    margin-top: 1em;
+}
+
+.section_five .section
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 2em;
+    background-color: transparent;
+}
+.section_five .container h2
+{
+    color: rgb(86, 208, 167);
+}
+.section_five .container .card
+{
+    border-style: outset;
+    width: 13rem;
+    padding: 10px;
+    height: 15rem;
+}
+.section_five .container .card img
+{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 7rem;
+}
+.section_five .container .card-body p
+{
+    color: rgb(86, 208, 167);
+}
+
+/* end of section five */
+
+.section_six .container
+{
+    padding: 2em;
+    background-color: black;
+    height: auto;
+}
+.section_six .container h3
+{
+    color: rgb(86, 208, 167);
+}
+.section_six .container p
+{
+    color: white;
+    
+}
+.section_six .card
+{
+    width: 20rem;
+    padding: 12px;
+    height: 11.5rem;
+    background-color: white;
+    border-radius: 10px;
+}
+.section_six .card img
+{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-left:13em;
+    margin-top:-2em;
+}
+.section_six .section
+{
+    margin-top: 2.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.section_six .section p
+{
+    color: green;
+    margin-left:11em;
+}
+
+/* footer */
+
+.footer
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border-top: 1px solid white;
+    padding: 2em;
+    
+}
+.footer .left ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+}
+.footer .right ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+}
+.footer a
+{
+    margin-right: 10px;
+    color: white;
+}
+
+/*-------------------------------------------------------*/
+
+/* view category */
+
+.category_container
+{
+    background-color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: auto;
+    padding: 2em;
+}
+.category .container
+{
+    margin-top: 1em;
+    width: fit-content;
+}
+
+.category .container .card
+{
+    border-style: outset;
+    width: 12rem;
+    padding: 10px;
+    height: auto;
+}
+.category .container .card img
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.category .card-body a
+{
+    text-transform: uppercase;
+    color: rgb(86, 208, 167);
+}
+.category img
+{
+    width:100%;
+    height: 7rem;
+}
+
+/*------------------------------------------*/
+
